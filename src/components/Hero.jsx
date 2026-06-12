@@ -53,13 +53,18 @@ function Hero() {
 
         <div className="mt-10 flex gap-4">
 
-          <button className="px-8 py-4 rounded-full bg-purple-600 hover:bg-purple-700 transition">
+          <a href="projects" className="px-8 py-4 rounded-full bg-purple-600 hover:bg-purple-700 transition">
             View Projects
-          </button>
+          </a>
 
-          <button className="px-8 py-4 rounded-full border border-white/20 hover:bg-white hover:text-black transition">
-            Contact Me
-          </button>
+          <a
+  href="https://wa.me/919876543210"
+  target="_blank"
+  rel="noreferrer"
+  className="px-8 py-4 rounded-full border border-white/20 hover:bg-white hover:text-black transition inline-block"
+>
+  Contact Me
+</a>
 
         </div>
 

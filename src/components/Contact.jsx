@@ -11,43 +11,65 @@ function Contact() {
         <h2 className="text-5xl md:text-7xl font-black mb-8">
           LET'S BUILD
           <br />
-          SOMETHING GREAT
+          SOMETHING AMAZING
         </h2>
 
-        <p className="text-zinc-400 text-lg mb-12">
-          Looking for a modern website that helps your business grow?
-          Let's discuss your project.
+        <p className="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto mb-16">
+          Looking for a modern, professional website that helps your
+          business stand out and attract more customers? Let's connect.
         </p>
 
-        <div className="bg-black border border-white/10 rounded-3xl p-10">
+        <div className="grid md:grid-cols-2 gap-8">
 
-          <form className="space-y-6">
+          {/* WhatsApp Card */}
+          <div className="bg-black border border-white/10 rounded-3xl p-10 hover:border-green-500 transition">
 
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full bg-zinc-900 p-4 rounded-xl outline-none"
-            />
+            <div className="text-5xl mb-6">
+              💬
+            </div>
 
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full bg-zinc-900 p-4 rounded-xl outline-none"
-            />
+            <h3 className="text-3xl font-bold mb-4">
+              WhatsApp
+            </h3>
 
-            <textarea
-              rows="5"
-              placeholder="Tell me about your project..."
-              className="w-full bg-zinc-900 p-4 rounded-xl outline-none"
-            ></textarea>
+            <p className="text-zinc-400 mb-8">
+              Send me a message and let's discuss your project requirements.
+            </p>
 
-            <button
-              className="w-full bg-purple-600 hover:bg-purple-700 py-4 rounded-xl font-semibold transition"
+            <a
+              href="https://wa.me/7518310418"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-block px-8 py-4 bg-green-500 hover:bg-green-600 rounded-full font-semibold transition"
             >
-              Send Message
-            </button>
+              Message on WhatsApp
+            </a>
 
-          </form>
+          </div>
+
+          {/* Call Card */}
+          <div className="bg-black border border-white/10 rounded-3xl p-10 hover:border-purple-500 transition">
+
+            <div className="text-5xl mb-6">
+              📞
+            </div>
+
+            <h3 className="text-3xl font-bold mb-4">
+              Call Me
+            </h3>
+
+            <p className="text-zinc-400 mb-8">
+              Prefer a direct conversation? Give me a call and let's talk.
+            </p>
+
+            <a
+              href="tel:+917518310418"
+              className="inline-block px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full font-semibold transition"
+            >
+              Call Now
+            </a>
+
+          </div>
 
         </div>
 
