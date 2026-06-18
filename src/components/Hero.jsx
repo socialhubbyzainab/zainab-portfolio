@@ -58,7 +58,7 @@ function Hero() {
           </a>
 
           <a
-  href="https://wa.me/917518310418"
+  href="https://wa.me/919026796572"
   target="_blank"
   rel="noreferrer"
   className="px-8 py-4 rounded-full border border-white/20 hover:bg-white hover:text-black transition inline-block"
