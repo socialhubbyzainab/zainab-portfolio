@@ -53,7 +53,7 @@ function Hero() {
 
         <div className="mt-10 flex gap-4">
 
-          <a href="projects" className="px-8 py-4 rounded-full bg-purple-600 hover:bg-purple-700 transition">
+          <a href="Portfolio" className="px-8 py-4 rounded-full bg-purple-600 hover:bg-purple-700 transition">
             View Projects
           </a>
 
